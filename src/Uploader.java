@@ -41,7 +41,10 @@ public class Uploader extends HttpServlet {
 		if (!fileSaveDir.exists()) fileSaveDir.mkdir();
 		for (Part part : req.getParts()) {
 			String fileName = extractFileName(part);
+			String filePath = savePath + File.separator + fileName;
 			part.write(savePath + File.separator + fileName);
+			Extractor extractor = new Extractor();
+			extractor.extractFile(filePath, fileName);
 		}
 		res.sendRedirect("index.jsp");
 	}
