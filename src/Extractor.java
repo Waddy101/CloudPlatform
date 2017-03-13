@@ -7,7 +7,7 @@ import java.util.jar.JarEntry;
 import java.util.jar.JarFile;
 
 public class Extractor {
-	private static String destDir = System.getProperty("catalina.base") + "/wtpwebapps";
+	private static String destDir = System.getProperty("catalina.base") + "/webapps";
 	
 	public void extractFile(String filePath, String fileName) throws IOException {
 		String jarpath = filePath;
