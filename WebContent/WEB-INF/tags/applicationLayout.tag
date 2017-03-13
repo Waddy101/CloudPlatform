@@ -26,16 +26,29 @@
             	<div class="container">
             		<div class="collapse navbar-collapse">
             			<ul class="nav navbar-nav navbar-left">
-            				<li><a href="index.jsp">Test1</a></li>
-            				<li><a href="index.jsp">Test2</a></li>
-            			</ul>
-            			<ul class="nav navbar navbar-right">
+            				<li><a href="/CloudPlatform/index.jsp">Test1</a></li>
+            				<li><a href="/HelloWorld/index.jsp">Test2</a></li>
             				<li class="dropdown">
             					<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">DropDown Example
             					<span class="caret"></span></button>
             					<ul class="dropdown-menu">
-            						<li><a href="index.jsp">Test1</a></li>
-            						<li><a href="index.jsp">Test2</a></li>
+            						<li><a href="/CloudPlatform/index.jsp">Test1</a></li>
+            						<li><a href="/HelloWorld/index.jsp">Test2</a></li>
+            					</ul>
+            				</li>
+            				
+            			</ul>
+            			<ul class="nav navbar navbar-right">
+            				<li class="dropdown">
+            					<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Upload
+            					<span class="caret"></span></button>
+            					<ul class="dropdown-menu">
+            						<li>
+	            						<form method="post" action="upload" enctype="multipart/form-data">
+	            						<p>Select file to upload: <input type="file" name="file" size="60"/></p>
+										<p><input type="submit" value="Upload"/></p>
+										</form>
+									</li>
             					</ul>
             				</li>
             			</ul>
