@@ -42,10 +42,10 @@
 				id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href="#">Link</a></li>
-					<li class="dropdown"><a href="#" class="dropdown-toggle"
+					<li class="dropdown"><a href="#" class="dropdown-toggle" id="left-dropdown"
 						data-toggle="dropdown" role="button" aria-haspopup="true"
 						aria-expanded="false">Apps<span class="caret"></span></a>
-						<ul class="dropdown-menu">
+						<ul class="dropdown-menu" id="left-dropdown">
 							<li><a href="#">App1</a></li>
 							<li><a href="#">App2</a></li>
 							<li><a href="#">App3</a></li>
@@ -60,10 +60,10 @@
 								</p>
 							</form>
 						</ul></li>
-					<li class="dropdown"><a href="#" class="dropdown-toggle"
+					<li class="dropdown pull-right"><a href="#" class="dropdown-toggle" id="right-dropdown"
 						data-toggle="dropdown" role="button" aria-haspopup="true"
 						aria-expanded="false">Login <span class="caret"></span></a>
-						<ul class="dropdown-menu">
+						<ul class="dropdown-menu" id="right-dropdown">
 							<li><a href="#">Log in</a></li>
 						</ul></li>
 				</ul>
@@ -72,7 +72,10 @@
 		</div>
 		<!-- /.container-fluid -->
 	</nav>
-	<h3 class="text-muted">Cloudbase Platform</h3>
+	<div class="container">
+		<h3 class="text-muted">Cloud6 Platform</h3>
+	</div>
+	
 	<jsp:doBody />
 </body>
 </html>
