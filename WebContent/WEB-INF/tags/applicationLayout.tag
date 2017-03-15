@@ -73,7 +73,7 @@
 		<!-- /.container-fluid -->
 	</nav>
 	<div class="container">
-		<h3 class="text-muted">Cloud6 Platform</h3>
+		<h3 class="text-muted">Sheffield Student Life Planner</h3>
 	</div>
 	
 	<jsp:doBody />
