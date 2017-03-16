@@ -51,14 +51,14 @@
 							<li><a href="#">App3</a></li>
 							<li role="separator" class="divider"></li>
 							<li><a href="#">Separated link</a></li>
-							<form method="post" action="upload" enctype="multipart/form-data">
+							<li><form method="post" action="upload" enctype="multipart/form-data">
 								<p>
 									Select file to upload: <input type="file" name="file" size="60" />
 								</p>
 								<p>
 									<input type="submit" value="Upload" />
 								</p>
-							</form>
+							</form></li>
 						</ul></li>
 					<li class="dropdown pull-right"><a href="#" class="dropdown-toggle" id="right-dropdown"
 						data-toggle="dropdown" role="button" aria-haspopup="true"
