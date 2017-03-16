@@ -3,5 +3,4 @@
 
 <t:applicationLayout>
     <h1>Welcome</h1>
-	<a href="logout.jsp">Click here to log out</a>
 </t:applicationLayout>

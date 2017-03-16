@@ -36,12 +36,24 @@
 				</button>
 				<a class="navbar-brand" href="#">Cloud6</a>
 			</div>
-
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse"
 				id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="#">Link</a></li>
+					<li class="dropdown"><a href="#" class="dropdown-toggle" id="left-dropdown"
+						data-toggle="dropdown" role="button" aria-haspopup="true"
+						aria-expanded="false">Upload<span class="caret"></span></a>
+						<ul class="dropdown-menu" id="left-dropdown">
+							<li><form method="post" action="upload" enctype="multipart/form-data">
+								<p>
+									Select file to upload: <input type="file" name="file" size="60" />
+								</p>
+								<p>
+									<input type="submit" value="Upload" />
+								</p>
+							</form></li>
+						</ul>
+					</li>
 					<li class="dropdown"><a href="#" class="dropdown-toggle" id="left-dropdown"
 						data-toggle="dropdown" role="button" aria-haspopup="true"
 						aria-expanded="false">Apps<span class="caret"></span></a>
@@ -51,21 +63,11 @@
 							<li><a href="#">App3</a></li>
 							<li role="separator" class="divider"></li>
 							<li><a href="#">Separated link</a></li>
-							<li><form method="post" action="upload" enctype="multipart/form-data">
-								<p>
-									Select file to upload: <input type="file" name="file" size="60" />
-								</p>
-								<p>
-									<input type="submit" value="Upload" />
-								</p>
-							</form></li>
-						</ul></li>
-					<li class="dropdown pull-right"><a href="#" class="dropdown-toggle" id="right-dropdown"
-						data-toggle="dropdown" role="button" aria-haspopup="true"
-						aria-expanded="false">Login <span class="caret"></span></a>
-						<ul class="dropdown-menu" id="right-dropdown">
-							<li><a href="#">Log in</a></li>
-						</ul></li>
+						</ul>
+					</li>
+					<li>
+						<a href="logout.jsp">Log Out</a>
+					</li>
 				</ul>
 			</div>
 			<!-- /.navbar-collapse -->
