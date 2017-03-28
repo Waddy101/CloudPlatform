@@ -11,6 +11,14 @@
   </welcome-file-list>
   
   <security-constraint>
+  		<web-resource-collection>
+  			<web-resource-name>free pages</web-resource-name>
+    		<url-pattern>/register.jsp</url-pattern>
+    		<url-pattern>/css/*</url-pattern>
+  		</web-resource-collection>
+  </security-constraint>
+  
+  <security-constraint>
         <web-resource-collection>
             <web-resource-name>
                Secured Cloud Platform
