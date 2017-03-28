@@ -33,6 +33,7 @@
 				  			</div>
 		  					<button type="submit" class="btn btn-primary pull-right">Login</button>
 			  			</form>
+			  			<a href="register.jsp">Need an account?</a>
 	  				</div>
   				</div>
 		</div>

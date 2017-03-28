@@ -1,8 +1,7 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@taglib prefix="t" tagdir="/WEB-INF/tags" %>
 <t:loginLayout>
-	<p>Bad username or password</p>
-	<div class="row">
+	<div class="row login-box">
 	  	<div class="col-md-6 col-md-offset-3">
 	  			<div class="panel panel-primary">
 	  				<div class="panel-heading">
